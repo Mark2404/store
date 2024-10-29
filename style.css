@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+
+
+header .logo p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    color: #5f5f5f;
+    margin-right: 490px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-right: 65px;
+}
+
+header .nav a {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #787878;
+
+}
+
+header .nav a:hover {
+    color: #000;
+
+}
+
+header img {
+    cursor: pointer;
+}
+
+main {
+    background-image: url(./assets/imgs/Background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border-radius: 40px 40px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.left-section {
+    width: 45%;
+}
+
+.left-section h1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 133%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.left-section span {
+    font-weight: 800;
+    margin-bottom: 23px;
+}
+
+.left-section b {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.27em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+.left-section p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    color: #656565;
+
+}
+
+.left-text {
+    padding: 60px 0;
+}
+
+.left-section button {
+    border-radius: 100px;
+    width: 230px;
+    height: 50px;
+    box-shadow: 0 7px 20px 0 rgba(121, 188, 207, 0.4);
+    background: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #79bccf;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.left-section button:hover {
+    background: #79bccf;
+    color: #fff;
+    letter-spacing: 3px;
+    background-color: hsl(188, 75%, 47%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(12, 187, 236) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.links {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+    margin-top: 100px;
+}
+
+
+
+.example-sec {
+    /* display: flex;
+    align-items: center;
+    gap: 20px; */
+    position: relative;
+
+
+}
+
+
+
+.right-section {
+    width: 45%;
+}
+
+.example-text-box {
+    border-radius: 20px;
+    width: 260px;
+    height: 85px;
+    box-shadow: 0 10px 25px 0 rgba(152, 196, 228, 0.35);
+    background: #fff;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+
+.example-text p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+
+}
+
+.example-text div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.text-pos {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+
+}
+
+.text-pos1 {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+
+.example-text div p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+
+}
+
+
+.line {
+    border: 1px solid #ff5757;
+    width: 36px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+}
+
+.min-jac {
+    position: absolute;
+    top: -30px;
+    left: -25px;
+    z-index: +1;
+}
+
+.example-sec {
+    position: relative;
+}
+
+.circle-pos {
+    position: absolute;
+    bottom: 120px;
+    left: 15px;
+}
+
+.example-text-box {
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.main-jacket-sec {
+    position: relative;
+}
+
+
+
+.little-imgs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: -100px;
+    top: 240px;
+
+}
+
+
+.right-img-sec {
+    position: relative;
+}
+
+
+.main-jacket-sec {
+    position: absolute;
+    bottom: -170px;
+    right: 165px;
+}
+
+
+
+
+.example-sec:hover .example-text-box {
+    opacity: 1;
+
+    visibility: visible;
+
+    box-shadow: rgba(222, 0, 238, 0.775) 0px 7px 29px 0px;
+}
